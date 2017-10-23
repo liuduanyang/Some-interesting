@@ -179,6 +179,14 @@ absolute:相对于非static最近的父级元素
 fixed：  相对于视窗(视窗：浏览器窗口)  
 ![](images/day3_fixed.png)  
 
+补充(干货提取)：  
+display:inline-block讲得很好 多看看
+
+z-index属性  
+**Z-index 仅能在定位元素上奏效（例如 position:absolute;）！**  
+z-index 属性设置元素的堆叠顺序。拥有更高堆叠顺序的元素总是会处于堆叠顺序较低的元素的前面  
+该属性设置一个定位元素沿 z 轴的位置，z 轴定义为垂直延伸到显示区的轴。如果为正数，则离用户更近，为负数则表示离用户更远。
+
 干货  
 [详解CSS display:inline-block的应用](http://web.jobbole.com/84089/)  
 [W3C css教程](http://www.w3school.com.cn/css/index.asp)  
