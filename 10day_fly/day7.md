@@ -48,3 +48,32 @@ js
 [w3cschool jquery教程](http://www.w3school.com.cn/jquery/)  
 [MDN Canvas教程](https://developer.mozilla.org/zh-CN/docs/Web/API/Canvas_API/Tutorial)
 
+
+####  直播
+canvas 优点：可实时刷新交互  
+
+动画的原理:
+动画是一帧一帧的  
+
+游戏动画循环  
+绘制draw()→更新update()→清除操作→绘制.. 
+
+代码片段:  
+安装插件 snippet-creator (vscode)  
+安装完成后 选中你想要添加成片段的代码  
+按ctrp+p 然后在命令框内 输入 '>' 选择snippet-ceator  
+然后输入javascript 就是选择创建哪种语言的的代码片段  
+之后按照提示 输入代码片段的名字 按 'Enter'键 确认  
+
+使用代码片段：  
+在编辑器输入你设定的代码片段的名字 按Enter即可  
+
+删除代码片段：  
+在javascript.json中可删除  
+也有命令 百度去吧  
+
+
+
+  
+
+
