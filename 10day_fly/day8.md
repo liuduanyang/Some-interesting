@@ -160,3 +160,14 @@ requestAnimationFrame 是专门为实现高性能的帧动画而设计的一个A
         }
 
 
+#### display:none;与opacity:0;的区别  
+display:none；表示这个元素不在了 不占任何空间  
+opacity:0;则表示透明度为0 相当于隐形 但是还是存在于原来的空间  
+
+
+#### Object.assign()  
+Object.assign() 方法用于将所有可枚举属性的值从一个或多个源对象复制到目标对象。它将返回目标对象  
+语法：Object.assign(target, ...sources)
+
+
+
