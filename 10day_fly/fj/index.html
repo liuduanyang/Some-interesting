@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <canvas id="game"></canvas>
+    <div class="ui-index">
+        <h1>飞机大作战</h1>
+        <div class="btn-group">
+            <button class="btn js-start">开始游戏</button>
+            <button class="btn js-setting">游戏设置</button>
+            <button class="btn js-rule">游戏说明</button>
+        </div>
+    </div>
+    
+    <div class="ui-rule">
+        <h2>游戏说明</h2>
+        <p>通过手指移动飞机，躲避敌人，通过子弹射击敌人得分，游戏无限时。
+            消灭小型飞机得100分，消灭大型分级得1000分。</p>
+            <button class="btn iknow">我明白了</button>
+    </div>
+
+    <div class="ui-panel">
+        <h2>游戏设置</h2>
+        <ul class="setting-group">
+            <li class="setting">
+                <span>音乐设置</span>
+                <select name="" id="">
+                    <option value="">开启音乐</option>
+                    <option value="">关闭音乐</option>
+                </select>
+            </li>
+            <li class="setting">
+                <span>背景设置</span>
+                <select name="" id="">
+                    <option value="0">背景1</option>
+                    <option value="1">背景2</option>
+                </select>
+            </li>
+            <li class="setting">
+                <span>战机设置</span>
+                <select name="" id="">
+                    <option value="">蓝色战机</option>
+                    <option value="">粉色战机</option>
+                </select>
+            </li>
+        </ul>
+        <button class="btn iconfirm">确认设置</button>
+    </div>
+
+    <script src="js/config.js"></script>
+    <script src="js/app.js"></script>
+    <script src="js/element.js"></script>
+    <script src="js/enemy.js"></script>
+</body>
+</html>

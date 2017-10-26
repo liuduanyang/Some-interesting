@@ -1,0 +1,88 @@
+/* *{
+    padding:0;
+    margin:0;
+} */
+html,body{
+    height:100%;
+    background-image:url('../img/bg_1.jpg');
+    background-size: cover;    /* background-repeat也行 */
+    color:#fff;
+    overflow:hidden; /*防止出现滚动条*/
+}
+.ui-index{
+    width:100%;
+    position: absolute;  /*设置这个的时候 如果不设置宽度时 对宽度会有印象 解决办法：设置宽度*/
+    top:50%;             /*这三条语句 常见的垂直居中方式*/
+    transform:translateY(-50%);
+}
+.ui-index h1{
+    font-size: 50px;
+    text-shadow:2px 8px 2px #000;
+    text-align: center;
+}
+.ui-index .btn{
+    display:block;
+    width:140px;
+    border:1px solid #999;
+    border-radius:6px;
+    background: none;  /*设置透明背景*/
+    font-size:20px;
+    color:#fff;
+    margin:0 auto 14px auto;   /*上右下左*/
+}
+.ui-panel{
+    width:80%;
+    padding:14px;
+    border:2px solid #fff;
+    background-color: #070808;
+    position: absolute;
+    top:50%;
+    left:10%;
+    /* left:50%; */
+    /* transform:translate(-50%,-50%); */
+    transform:translateY(-50%);
+    box-sizing:border-box;
+    text-align: center;
+    border-radius:8px;
+}
+.ui-rule{
+    width:80%;
+    padding:14px;
+    border:2px solid #fff;
+    background-color: #070808;
+    position: absolute;
+    top:50%;
+    left:10%;
+    transform:translateY(-50%);
+    box-sizing:border-box;
+    text-align: center;
+    border-radius:8px;
+}
+.ui-panel .btn,.ui-role .btn{
+    font-size:18px;
+    /* display:block;
+    width:100px;
+    margin:0 auto; */
+    border:1px solid #999;
+    background:none;
+    color:#fff;
+}
+.setting-group{
+    list-style-type: none;
+    padding:0;
+}
+.setting-group .setting{
+    margin-bottom:10px;
+}
+.setting-group .setting select{
+    width:100px;
+    background-color:#fff;
+    margin-left:10px;
+}
+
+/*将几个模块默认是隐藏状态 */
+.ui-rule,.ui-panel{
+    display:none;
+}
+
+
